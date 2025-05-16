@@ -26,8 +26,7 @@ namespace Astra.Controllers {
             return Ok(wallet);
         }
 
-        [HttpGet]
-        [Route("/{address}/balance")]
+        [HttpGet("{address}/balance")]
         public async Task<IActionResult> balance([FromRoute] string address) {
             return Ok(await _walletsrv.FetchSolanaBalance(address));
         }

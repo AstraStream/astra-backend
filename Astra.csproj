@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="FluentEmail.Core" Version="3.0.2" />
+    <PackageReference Include="FluentEmail.Mailtrap" Version="2.7.0" />
     <PackageReference Include="FluentEmail.Smtp" Version="3.0.2" />
     <PackageReference Include="GoogleAuthenticator" Version="3.3.0-beta1" />
     <PackageReference Include="Mapster" Version="7.4.2-pre02" />

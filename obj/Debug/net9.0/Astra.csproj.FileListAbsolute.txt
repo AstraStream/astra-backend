@@ -181,3 +181,4 @@
 /home/danny/Documents/projects/personal/Astra/obj/Debug/net9.0/Astra.pdb
 /home/danny/Documents/projects/personal/Astra/obj/Debug/net9.0/Astra.genruntimeconfig.cache
 /home/danny/Documents/projects/personal/Astra/obj/Debug/net9.0/ref/Astra.dll
+/home/danny/Documents/projects/personal/Astra/obj/Debug/net9.0/Astra.sourcelink.json

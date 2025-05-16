@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[3.0.2, )"
             },
+            "FluentEmail.Mailtrap": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
             "FluentEmail.Smtp": {
               "target": "Package",
               "version": "[3.0.2, )"

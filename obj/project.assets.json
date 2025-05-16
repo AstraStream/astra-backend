@@ -23,6 +23,18 @@
           "lib/netstandard2.0/FluentEmail.Core.dll": {}
         }
       },
+      "FluentEmail.Mailtrap/2.7.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentEmail.Smtp": "2.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentEmail.Mailtrap.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentEmail.Mailtrap.dll": {}
+        }
+      },
       "FluentEmail.Smtp/3.0.2": {
         "type": "package",
         "dependencies": {
@@ -2013,6 +2025,18 @@
         "fluentemail.core.nuspec",
         "fluentemail_logo_64x64.png",
         "lib/netstandard2.0/FluentEmail.Core.dll"
+      ]
+    },
+    "FluentEmail.Mailtrap/2.7.0": {
+      "sha512": "ak0TgLO6kWno9Whmmo/poklmQ0XRH4uomqQh2Jj1QMWvpYhwAiS7F0zo0j1SheQv37/AXCfFrJ3l6BenYmYPcQ==",
+      "type": "package",
+      "path": "fluentemail.mailtrap/2.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentemail.mailtrap.2.7.0.nupkg.sha512",
+        "fluentemail.mailtrap.nuspec",
+        "lib/netstandard2.0/FluentEmail.Mailtrap.dll"
       ]
     },
     "FluentEmail.Smtp/3.0.2": {
@@ -5452,6 +5476,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "FluentEmail.Core >= 3.0.2",
+      "FluentEmail.Mailtrap >= 2.7.0",
       "FluentEmail.Smtp >= 3.0.2",
       "GoogleAuthenticator >= 3.3.0-beta1",
       "Mapster >= 7.4.2-pre02",
@@ -5528,6 +5553,10 @@
           "FluentEmail.Core": {
             "target": "Package",
             "version": "[3.0.2, )"
+          },
+          "FluentEmail.Mailtrap": {
+            "target": "Package",
+            "version": "[2.7.0, )"
           },
           "FluentEmail.Smtp": {
             "target": "Package",
